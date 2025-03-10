@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="NPCDialogue" src="project://database/Assets/UnityTechnologies/StarterAsset/NPCDialogue.uxml?fileID=9197481963319205126&amp;guid=91bb72bed5bfa4145a9767a25e1f5536&amp;type=3#NPCDialogue" />
+    <ui:Instance template="NPCDialogue" name="NPCDialogue" />
+</ui:UXML>

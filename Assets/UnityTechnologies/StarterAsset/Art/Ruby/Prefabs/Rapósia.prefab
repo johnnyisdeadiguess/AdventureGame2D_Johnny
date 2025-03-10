@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 3611986048099728740}
   - component: {fileID: 9013172861342726142}
   - component: {fileID: 8715045224765138500}
-  m_Layer: 0
+  - component: {fileID: 3355833657850050659}
+  m_Layer: 8
   m_Name: "Rap\xF3sia"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -200,6 +201,17 @@ MonoBehaviour:
   speed: 6
   maxHealth: 10
   timeInvincible: 1.5
+  projectilePrefab: {fileID: 5121656301832308297, guid: 77ae076b1bb2f824aa0e2e0b8390b6e6,
+    type: 3}
+  talkAction:
+    m_Name: Talk
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: de92712f-48a6-43a0-8183-d5311eea3a7a
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
 --- !u!50 &9013172861342726142
 Rigidbody2D:
   serializedVersion: 4
@@ -272,3 +284,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.22, y: 0.8632865}
   m_EdgeRadius: 0
+--- !u!95 &3355833657850050659
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634408957595450780}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 15c93a869dd14df478b6eebf0c4a9b3d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

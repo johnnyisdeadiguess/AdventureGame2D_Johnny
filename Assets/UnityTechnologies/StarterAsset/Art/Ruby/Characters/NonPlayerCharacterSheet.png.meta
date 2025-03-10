@@ -12,7 +12,7 @@ TextureImporter:
       213: 21300004
     second: JambiIdle3
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -115,68 +115,81 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: JambiIdle1
+      name: NonPlayerCharacterSheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 768
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b9f29c444b3a0a488d9e380dd4e476f
-      internalID: 21300000
+      spriteID: b036e2e19f52bce48a467bcf84ff75e0
+      internalID: 834038422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JambiIdle2
+      name: NonPlayerCharacterSheet_1
       rect:
         serializedVersion: 2
         x: 256
         y: 768
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac704b7ce23e935479b6b68735992ca3
-      internalID: 21300002
+      spriteID: 4fcc4768a7d09a64bb564fe42c267605
+      internalID: 1902150747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JambiIdle3
+      name: NonPlayerCharacterSheet_2
       rect:
         serializedVersion: 2
         x: 512
         y: 768
         width: 256
         height: 256
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: caa29f31bb01b004a92b38edc46f72f3
-      internalID: 21300004
+      spriteID: 964d7a5d2f223654eb420e16a26057ed
+      internalID: -831540309
       vertices: []
       indices: 
       edges: []
@@ -192,9 +205,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      JambiIdle1: 21300000
-      JambiIdle2: 21300002
-      JambiIdle3: 21300004
+      NonPlayerCharacterSheet_0: 834038422
+      NonPlayerCharacterSheet_1: 1902150747
+      NonPlayerCharacterSheet_2: -831540309
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
